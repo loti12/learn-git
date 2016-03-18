@@ -1,6 +1,6 @@
 {
   "name": "git - 简明指南",
   "tagline": "这里只有简单的 git",
-  "body": "### git 下载安装\r\n* [下载 git OSX](http://code.google.com/p/git-osx-installer/downloads/list?can=3)\r\n* [下载 git WINDOWS](http://msysgit.github.io/)",
+  "body": "### git 下载安装\r\n\r\n* [下载 git OSX](http://code.google.com/p/git-osx-installer/downloads/list?can=3)\r\n* [下载 git WINDOWS](http://msysgit.github.io/)\r\n\r\n### 创建新仓库\r\n\r\n创建新文件夹，执行 *git init* , 来创建新仓库\r\n\r\n### 检出仓库\r\n\r\n执行命令 *git clone /path/to/repository*\r\n\r\n### git 三种状态\r\n\r\n本地仓库模型有三种状态。第一个是你的 工作目录，它持有实际文件；第二个是 暂存区（Index），它像个缓存区域，临时保存你的改动；最后是 HEAD，它指向你最后一次提交的结果。\r\n\r\n![git 仓库模型](http://rogerdudler.github.io/git-guide/img/trees.png)\r\n\r\n相应的检入与检出命令如图：\r\n\r\n![git 三种状态之间的转换](https://segmentfault.com/img/bVs6Ae)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
