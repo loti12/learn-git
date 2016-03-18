@@ -36,8 +36,21 @@
 
 ## 分支管理
 
+master 是“默认的”分支。创建一个叫做“feature_x”的分支，并切换过去：
+
+`git checkout -b feature_x`
+
+切换回主分支：
+
+`git checkout master`
+
+要合并其他分支到你的当前分支，执行：
+
+`git merge <branch>`
+
 ## 参考资料
 
+* [git 中文文档](https://git-scm.com/book/zh/v2)
 * [git 指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 * [常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 * [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
